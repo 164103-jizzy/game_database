@@ -71,6 +71,12 @@ while True:
     elif player == "fairy":
         print(f"ชนะ : {types['Fighting']} {types['Dragon']} {types['Dark']}")
         print(f"แพ้ : {types['Poison']} {types['Steel']}")
+    elif player == "psychic":
+        print(f"ชนะ : {types['Fighting']} {types['Poison']}")
+        print(f"แพ้ : {types['Bug']} {types['Ghost']} {types['Dark']}")
+    elif player == "ground":
+        print(f"ชนะ : {types['Fire']} {types['Electric']} {types['Poison']} {types['Rock']} {types['Steel']}")
+        print(f"แพ้ : {types['Water']} {types['Grass']} {types['Ice']}")
     elif player == "out":
         break
     else:
