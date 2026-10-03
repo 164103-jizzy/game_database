@@ -77,6 +77,9 @@ while True:
     elif player == "ground":
         print(f"ชนะ : {types['Fire']} {types['Electric']} {types['Poison']} {types['Rock']} {types['Steel']}")
         print(f"แพ้ : {types['Water']} {types['Grass']} {types['Ice']}")
+    elif player == "flying":
+        print(f"ชนะ : {types['Grass']} {types['Fighting']} {types['Bug']}")
+        print(f"แพ้ : {types['Electric']} {types['Ice']} {types['Rock']}")
     elif player == "out":
         break
     else:
